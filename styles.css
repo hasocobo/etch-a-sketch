@@ -8,10 +8,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 672px;
-    height: 672px;
-    gap: 10px;
-
+    width: 640px;
+    height: 640px;
+    gap: 0px;
 }
 
 .margin-auto {
@@ -30,7 +29,12 @@ body {
 }
 
 .square-grid {
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+.square-grid-border {
+    width: inherit;
+    height: inherit;
+    border: 1px solid #aaa;
 }
