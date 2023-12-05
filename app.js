@@ -10,6 +10,9 @@ function createGrid(size){
         const gridElement = document.createElement('div');
         gridElement.classList.add('square-grid');
         container.appendChild(gridElement);
+        gridElement.addEventListener('mouseover', () => {
+            gridElement.style = "background-color: black;"
+        })
     }
 }
 

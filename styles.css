@@ -10,6 +10,7 @@ body {
     align-items: center;
     width: 672px;
     height: 672px;
+    gap: 10px;
 
 }
 
@@ -29,7 +30,6 @@ body {
 }
 
 .square-grid {
-    margin: 5px;
     width: 30px;
     height: 30px;
     border: 1px solid black;
