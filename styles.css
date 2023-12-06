@@ -13,6 +13,10 @@ body {
     gap: 0px;
 }
 
+#slider {
+    width: 400px;
+}
+
 .margin-auto {
     margin: 0 auto;
 }
@@ -28,6 +32,24 @@ body {
     align-items: center;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #1f2937;
+    color: white;
+}
+
 .square-grid {
     width: 40px;
     height: 40px;
@@ -37,4 +59,8 @@ body {
     width: inherit;
     height: inherit;
     border: 1px solid #aaa;
+}
+
+.bg-black {
+    background-color: black;
 }
